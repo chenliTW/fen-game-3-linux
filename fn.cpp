@@ -437,9 +437,9 @@ void slash(){
             }
         }
     }
-    system("cls");
+    system("clear");
     frame();
-    Sleep(700);
+    system("sleep 0.7");
     for(int y=1;y<SIZE-1;++y){
         if(full_line[y-1]){
             for(int yy=y;yy>1;--yy){
